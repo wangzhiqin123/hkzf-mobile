@@ -1,0 +1,21 @@
+.home {
+  .tabBar {
+    height: 50px;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    ul {
+      display: flex;
+      li {
+        flex: 1;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 10px;
+        .active {
+          color: #21b97a;
+        }
+      }
+    }
+  }
+}
